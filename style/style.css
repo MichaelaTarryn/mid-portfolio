@@ -9,6 +9,7 @@
       /* bottom, image */ url(https://picsum.photos/1920/1200);
     background-size: cover;
     background-attachment: fixed;
+    margin-top: 25px;
   }
   
   #landing h1 {
@@ -21,12 +22,45 @@
     color: #eee;
     text-transform: uppercase;
     padding: 10px 12px 13px;
+    
       }
+      /* ul{
+        float:left;
+        display: inline-block;
+      } */
+      
+ nav a:hover {
+        color: #a0ce4e !important;
+    }
 
+    .navbar-brand {
+      color: #a0ce4e !important;
+    }
+
+
+/*  */
+.navbar-nav > a:before {
+  left: -3px;
+  top: 15px;
+  z-index: 2;
+  color: #eee;
+  font-size: 4px;
+  content: "\f10c";
+  margin-right: 6px;
+  position: absolute;
+
+}
+/*  */
+  #landing hr{
+    color: #a0ce4e !important;
+    width:20%;
+    height:1%;
+    /* border-width: 15px; */
+  }
   .section-title {
     z-index: 2;
     position: relative;
-    color: #c1c1c1;
+    color:#a0ce4e !important;
     text-align: center;
     font-size: 3.3rem;
   }
@@ -62,4 +96,20 @@
     border: 3px solid black;
     border-radius: 50%;
     background-color: rgb(248, 249, 250);
+  }
+  #services{
+    margin: auto;
+  }
+  .progress-bar{
+    background-color: #a0ce4e !important;
+  }
+  .btn{
+    width: 4em!important; 
+    background-color: #a0ce4e !important;
+    margin: auto;
+    
+  }
+  .card:hover .btn{
+
+    background-color: aquamarine;
   }
