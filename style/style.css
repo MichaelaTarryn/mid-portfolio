@@ -64,6 +64,10 @@
     text-align: center;
     font-size: 3.3rem;
   }
+  #about .btn{
+    background-color:#a0ce4e !important ;
+    width: 220px;
+  }
   
   .section-title span {
     position: absolute;
@@ -95,7 +99,8 @@
     height: 20px;
     border: 3px solid black;
     border-radius: 50%;
-    background-color: rgb(248, 249, 250);
+    background-color: #a0ce4e;
+    /* background-color: rgb(248, 249, 250); */
   }
   #services{
     margin: auto;
@@ -103,13 +108,14 @@
   .progress-bar{
     background-color: #a0ce4e !important;
   }
-  .btn{
+  #services .btn{
+    transition: .5s;
     width: 4em!important; 
     background-color: #a0ce4e !important;
     margin: auto;
-    
+
   }
   .card:hover .btn{
-
+    border-radius: 20px;
     background-color: aquamarine;
   }
