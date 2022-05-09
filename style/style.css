@@ -120,12 +120,71 @@
     height: 10px !important;
     aspect-ratio: 1 !important;
     border-radius: 50% !important;
+    ;
 }
   .card:hover .btn{
     border-radius: 20px;
     background-color: aquamarine;
   }
-  .portfolio :hover .img-fluid{
-    border:  2px solid #a0ce4e;
-  }
+  /* #portfolio :hover img-fluid{
+    border-radius:  red;
+  }  */
  
+h2:hover{
+color: #a0ce4e;
+}
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+/* SIZES IMAGES */
+.projects-container img {
+  max-height: 400px;
+  /* max-width: 300px; */
+  object-fit: cover;
+  flex-grow: 1;
+  transition: .8s;
+  /* opacity: .5; */
+}
+/* WRAPS AROUND IMG */
+.img-container {
+  position: relative;
+  transition: .8s
+}
+/* BECOMES OPAQUE WHEN HOVER */
+.img-container:hover > img{
+  opacity: .75;
+}
+/* CENTERS BUTTONS IN IMG */
+.btn-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* SETS BTN TO INVISIBLE */
+.img-container .btn-center .btn {
+  visibility: hidden;
+  opacity: 0;
+  transition: .8s;
+}
+/* SHOWS BUTTONS WHEN HOVER */
+.img-container:hover>.btn-center .btn {
+  visibility: visible;
+  opacity: 1;
+}
+.btn-center a:hover{
+  gap:2px;
+  background-color: black;
+  color: #a0ce4e !important;
+}
+
+.img-container:hover{
+  border: 5px solid #a0ce4e;
+}
