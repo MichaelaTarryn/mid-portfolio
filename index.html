@@ -42,7 +42,7 @@
   </section>
   <section class="bg-dark text-light py-5 vh-100 " id="landing">
     <div class="container d-flex justify-content-center align-items-center flex-column h-100">
-      <h1>Heading</h1>
+      <h1>Aspiring Front-end Developer</h1>
       <hr>
       <h2 class="h5">Subtitle</h2>
     </div>
@@ -238,15 +238,46 @@
       </div>
     </div>
   </section>
-  <section class="bg-dark text-light py-5" id="testimonials">
-    <div class="container">Testimonial Carousel</div>
+  <section class="bg-dark text-white py-5" id="testimonials">
+    <div class="container">
+      <h2>
+        Testimonial Carousel
+      </h2>
+    
+    <section id="testimonials" class="vh-80">
+      <div class="container text-center p-5">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators " >
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active circle" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"class="circle"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="circle"></button>
+              </div>
+              <div class="carousel-inner pb-5 ">
+                <div class="carousel-item active">
+                  <img src="https://picsum.photos/seed/picsum/200/" class="rounded-circle" alt="" />
+                  <p>Taucia Jackson</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, recusandae.</p>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://picsum.photos/seed/picsum/200/" class="rounded-circle " alt="...">
+                  <p>Silvanna Gomez</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, recusandae.</p>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://picsum.photos/seed/picsum/200/" class="rounded-circle" alt="...">
+                  <p>Malia David</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, recusandae.</p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
   </section>
   <section class="bg-light text-dark py-5" id="portfolio">
     <div class="container">
       <h2>Portfolio</h2>
-      <h6>Subtitle</h6>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <img class="img-fluid" src="https://picsum.photos/600?random=1" alt="" />
         </div>
         <div class="col-md-4">
@@ -255,7 +286,7 @@
         <div class="col-md-4">
           <img class="img-fluid" src="https://picsum.photos/600?random=3" alt="" />
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <img class="img-fluid" src="https://picsum.photos/600?random=4" alt="" />
         </div>
         <div class="col-md-4">
@@ -299,28 +330,56 @@
   <section class="bg-light text-dark py-5" id="contact">
     <div class="container">
       <h2>Contact</h2>
-      <h6>Subtitle</h6>
+      <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, expedita.</h6>
       <div class="row">
-        <div class="col-md-6">
-          <div class="card">contact</div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card">contact</div>
+        <div class="col-12">
+          <div class="container bg-light text-black-50 w-80">
+            <h2 class="display-2 text-center text-black">Please fill it in </h2>
+            <form action="https://formspree.io/f/xbjwqjvk"
+            method="POST">
+            <!-- name -->
+            <div class="row my-2">
+                <label for="name" class="col-md-2 col-form-label-lg"> Full Name</label>
+                <div class="col-6"></div>
             </div>
-            <div class="col-md-6">
-              <div class="card">contact</div>
+            <div class="col-6">
+                <input id="name" name="name" type="text" placeholder="enter your full name" class="form-control">
             </div>
+          
+          
+            <!-- email -->
+            <div class="row my-2">
+              <label for="name" class="col-md-2 col-form-label-lg"> Email</label>
+          
+          <div class="col-12">
+              <input id="name" name="name" type="text" placeholder="enter your email" class="form-control">
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card">
-            <form action="">
-              <input type="text" />
+            
+            </div>
+            
+            <!-- message -->
+            <div class="row my-2">
+                <label for="message" class="col-md-2 col-form-label-lg">Message: </label>
+                <div class="col- 12 form-floating">
+                    <textarea name="message" id="message" class="h-100 w-100">
+                    </textarea>
+                </div>
+            </div>
+            <!-- button -->
+            <div class="row my-2 text-success">
+                <label class="col-md-2 col-form-label-lg" ></label>
+                <div class="col-8 mb-1 ">
+                    <input type=" submit" value=" Post Submit"
+                    class="btn btn-dark w-100">
+                </div>
+            </div>
+    
+    
+    
             </form>
-          </div>
-        </div>
-      </div>
     </div>
+
   </section>
   <section id="footer">
     <div class="container">Made by Jason Wandrag</div>
