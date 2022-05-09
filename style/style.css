@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+#landing {
+    background: 
+      /* top, transparent red, faked with gradient */ linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+      ),
+      /* bottom, image */ url(https://picsum.photos/1920/1200);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #landing h1 {
+    font-family: "Open Sans",sans-serif;
+    font-size: 2em;
+  }
+  #navigation{
+    font-family: "Open Sans",sans-serif;
+    font-size: 1em;
+    color: #eee;
+    text-transform: uppercase;
+    padding: 10px 12px 13px;
+      }
+
+  .section-title {
+    z-index: 2;
+    position: relative;
+    color: #c1c1c1;
+    text-align: center;
+    font-size: 3.3rem;
+  }
+  
+  .section-title span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    top: 12px;
+    font-size: 0.9em;
+    z-index: 1;
+  }
+  
+  h6 {
+    text-align: center;
+  }
+  
+  .experience-container {
+    border-left: 3px solid black;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .experience-container::before {
+    position: absolute;
+    left: -10px;
+    top: 0;
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: rgb(248, 249, 250);
+  }
