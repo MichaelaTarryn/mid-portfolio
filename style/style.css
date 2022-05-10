@@ -120,7 +120,8 @@
     height: 10px !important;
     aspect-ratio: 1 !important;
     border-radius: 50% !important;
-    ;
+    border-color: #a0ce4e!important;
+    color:black !important ;
 }
   .card:hover .btn{
     border-radius: 20px;
