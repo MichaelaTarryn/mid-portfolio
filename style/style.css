@@ -22,6 +22,7 @@
     color: #eee;
     text-transform: uppercase;
     padding: 10px 12px 13px;
+    z-index: 1;
     
       }
       /* ul{
@@ -80,6 +81,16 @@
   }
   
   h6 {
+    text-align: center;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: red; */
+    /* color: white; */
+    text-align: center;
+  }
+  h5{
     text-align: center;
   }
   
@@ -188,4 +199,20 @@ color: #a0ce4e;
 
 .img-container:hover{
   border: 5px solid #a0ce4e;
+}
+.containter1{
+  padding-top: 150px;
+}
+@media only screen and (max-width: 500px) {
+  .buttons {
+    width:310px;
+  
+  }
+.help{
+  font-size: small;
+}
+
+.section-title{
+  font-size:large;
+}
 }
