@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-
+html,body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 #landing {
     background: 
       /* top, transparent red, faked with gradient */ linear-gradient(
@@ -93,7 +98,7 @@
   h5{
     text-align: center;
   }
-  
+
   .experience-container {
     border-left: 3px solid black;
     padding-left: 20px;
@@ -126,6 +131,13 @@
     margin: auto;
 
   }
+
+.carousel-inner img{
+  aspect-ratio: 1;
+  object-position: center;
+  width: 300px;
+}
+
   .circle{
     width: 10px !important;
     height: 10px !important;
@@ -203,6 +215,9 @@ color: #a0ce4e;
 .containter1{
   padding-top: 150px;
 }
+
+
+
 @media only screen and (max-width: 500px) {
   .buttons {
     width:310px;
