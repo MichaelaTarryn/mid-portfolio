@@ -131,11 +131,26 @@ html,body
     margin: auto;
 
   }
+.dots{
+  width: 20px;
+  height: 16px;
+  background-color:#a0ce4e ;
+  border-color: black;
+  border-radius: 50%;
+  display: inline-block;
 
+}
+.dots-greys{
+  width: 20px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: gray;
+  display: inline-block;
+}
 .carousel-inner img{
   aspect-ratio: 1;
   object-position: center;
-  width: 300px;
+  width: 320px;
 }
 
   .circle{
