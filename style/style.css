@@ -134,7 +134,7 @@ html,body
 .dots{
   width: 20px;
   height: 16px;
-  background-color:#a0ce4e ;
+  background-color:black;
   border-color: black;
   border-radius: 50%;
   display: inline-block;
@@ -144,7 +144,8 @@ html,body
   width: 20px;
   height: 16px;
   border-radius: 50%;
-  background-color: gray;
+  /* background-color: gray; */
+  background-color:#a0ce4e;
   display: inline-block;
 }
 .carousel-inner img{
@@ -230,7 +231,9 @@ color: #a0ce4e;
 .containter1{
   padding-top: 150px;
 }
-
+.color-green {
+  color: #a0ce4e;
+}
 
 
 @media only screen and (max-width: 500px) {
