@@ -71,8 +71,13 @@ html,body
     font-size: 3.3rem;
   }
   #about .btn{
-    background-color:#a0ce4e !important ;
+    background-color:#a0ce4e;
     width: 220px;
+    text-decoration: none;
+  }
+  span :hover{
+    color: rgb(247, 247, 247) !important;
+    background-color: black !important;
   }
   
   .section-title span {
@@ -152,6 +157,7 @@ html,body
   aspect-ratio: 1;
   object-fit: cover;
   width: 320px;
+  
   
 }
 /* .carousel-item{
@@ -254,7 +260,7 @@ color: #a0ce4e;
   .landing{
   object-fit: cover;
   }
-  .testimonials{
-  object-fit: cover;
+  .carousel-item{
+  object-fit:scale-down;
   }
 }
