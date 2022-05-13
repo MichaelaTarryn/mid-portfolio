@@ -245,7 +245,7 @@ color: #a0ce4e;
 }
 
 
-@media only screen and (max-width: 500px) {
+@media(max-width: 500px) {
   .buttons {
     width:310px;
   
@@ -261,6 +261,13 @@ color: #a0ce4e;
   object-fit: cover;
   }
   .carousel-item{
+    max-height: 470px;
+  max-width: 570px;
   object-fit:scale-down;
+  }
+
+  .rounded-circle{
+    height: 250px !important;
+    width: 250px !important;
   }
 }
