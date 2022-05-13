@@ -150,10 +150,13 @@ html,body
 }
 .carousel-inner img{
   aspect-ratio: 1;
-  object-position: center;
+  object-fit: cover;
   width: 320px;
+  
 }
-
+/* .carousel-item{
+  object-fit: cover;
+}  */
   .circle{
     width: 10px !important;
     height: 10px !important;
@@ -241,11 +244,17 @@ color: #a0ce4e;
     width:310px;
   
   }
-.help{
+  .help{
   font-size: small;
-}
+  }
 
-.section-title{
+  .section-title{
   font-size:large;
-}
+  }
+  .landing{
+  object-fit: cover;
+  }
+  .testimonials{
+  object-fit: cover;
+  }
 }
