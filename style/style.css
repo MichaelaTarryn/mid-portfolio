@@ -30,10 +30,7 @@ html,body
     z-index: 1;
     
       }
-      /* ul{
-        float:left;
-        display: inline-block;
-      } */
+ 
       
  nav a:hover {
         color: #a0ce4e !important;
@@ -61,7 +58,7 @@ html,body
     color: #a0ce4e !important;
     width:20%;
     height:1%;
-    /* border-width: 15px; */
+ 
   }
   .section-title {
     z-index: 2;
@@ -92,12 +89,10 @@ html,body
   
   h6 {
     text-align: center;
-    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
-    /* background-color: red; */
-    /* color: white; */
+   
     text-align: center;
   }
   h5{
@@ -121,7 +116,7 @@ html,body
     border: 3px solid black;
     border-radius: 50%;
     background-color: #a0ce4e;
-    /* background-color: rgb(248, 249, 250); */
+    
   }
   #services{
     margin: auto;
@@ -149,7 +144,6 @@ html,body
   width: 20px;
   height: 16px;
   border-radius: 50%;
-  /* background-color: gray; */
   background-color:#a0ce4e;
   display: inline-block;
 }
@@ -160,9 +154,7 @@ html,body
   
   
 }
-/* .carousel-item{
-  object-fit: cover;
-}  */
+
   .circle{
     width: 10px !important;
     height: 10px !important;
@@ -175,10 +167,7 @@ html,body
     border-radius: 20px;
     background-color: aquamarine;
   }
-  /* #portfolio :hover img-fluid{
-    border-radius:  red;
-  }  */
- 
+
 h2:hover{
 color: #a0ce4e;
 }
